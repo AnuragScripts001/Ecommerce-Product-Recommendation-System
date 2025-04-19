@@ -27,6 +27,7 @@ class Signup(db.Model):
     username = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), nullable=False)
     password = db.Column(db.String(100), nullable=False)
+    
 
 # Define your model class for the 'signin' table
 class Signin(db.Model):
